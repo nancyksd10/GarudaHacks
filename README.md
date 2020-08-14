@@ -1,6 +1,6 @@
 Project for GarudaHacks
  
- for installment---
+ for installment-->
     npm install i
  
  
