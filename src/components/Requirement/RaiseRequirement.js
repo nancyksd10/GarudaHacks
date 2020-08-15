@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "antd/dist/antd.css";
 import { Form, Input, Button,Select,Card,Col,Row,Table,Modal } from "antd";
-import { AudioOutlined, } from "@ant-design/icons";
+
 import PageTitle from "../common/PageTitle";
 import  "./style.css"
 
@@ -307,7 +307,7 @@ const RaiseRequirement = () => {
 				width={800}
 				footer={null}
 			>
-				{/* /* <Spin tip="Assigning Ambulance..." spinning={assignSpin}>  */}
+				
 				{rowData ? (
 					<>
 						<Row>
@@ -336,7 +336,7 @@ const RaiseRequirement = () => {
 						
 					</>
 				) : null}
-				{/* </Spin> */}
+				
 			</Modal>
 		</div>
 	);

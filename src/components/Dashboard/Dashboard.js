@@ -7,7 +7,7 @@ const Dashboard = () => {
 
 	return (
 		<div style={{padding: "10px 30px"}}>
-			{/* <PageTitle title="Dashboard" /> */}
+			
 			<Row>
 			
 			<Col span={20}>

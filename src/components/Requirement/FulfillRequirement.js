@@ -1,7 +1,6 @@
 import React, { useState,useEffect } from "react";
 import "antd/dist/antd.css";
-import { Form, Input, InputNumber, Button,Select, Row,Col,Table,Card,Modal } from "antd";
-import { SearchOutlined } from "@ant-design/icons";
+import { Form, Input, Button,Select, Row,Col,Table,Card,Modal } from "antd";
 import PageTitle from "../common/PageTitle";
 
 const FulfillRequirement = () => {
