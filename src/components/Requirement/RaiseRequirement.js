@@ -116,9 +116,9 @@ const RaiseRequirement = () => {
 			key: "location"
 		},
 		{
-			title: "Special Requirement",
-			dataIndex: "specialRequirement",
-			key: "specialRequirement"
+			title: "Requirement",
+			dataIndex: "Requirement",
+			key: "Requirement"
 		},
 		{
 			title: "",
@@ -127,7 +127,7 @@ const RaiseRequirement = () => {
 				<>
 					<Button
 						type="primary"
-						onClick={() => showModal(data)}
+						onClick={showModal}
 					>
 						View
 					</Button>
@@ -144,9 +144,11 @@ const RaiseRequirement = () => {
 					key: Requirement._id,
 					name:Requirement.name,
 					description: Requirement.jobDescription,
-					specialRequirement: Requirement.specialRequirement,	
+					Requirement: Requirement.Requirement,	
 					location:Requirement.jobLocation,
-					itemRequired:Requirement.itemRequest				
+					itemRequest:Requirement.itemRequest,
+					email:Requirement.email,
+					phone:Requirement.phone						
 					
 				};
 		  })
@@ -234,18 +236,18 @@ const RaiseRequirement = () => {
 					</Form.Item>
 
 					<Form.Item
-						name="Special Requirement"
-						label="Special Requirement"
+						name="Requirement"
+						label="Requirement"
 						rules={[
 							{
-								message: "Please input Special Requirement"
+								message: "Please input Requirement"
 							}
 						]}
 					>
 						<Input
 							className="input-field"
-							placeholder="Special Requirement"
-							value="specialRequirement"
+							placeholder="Requirement"
+							value="Requirement"
 							// prefix={<UserOutlined />}
 						/>
 					</Form.Item>
@@ -257,7 +259,7 @@ const RaiseRequirement = () => {
 							className="login-form-button"
 							block
 							loading={!isLoading}
-							// onClick={handleOk}
+							onClick={handleOk}
 							
 							
 						>
@@ -319,18 +321,20 @@ const RaiseRequirement = () => {
 						<Row>
 							<Col span={4}>Job Description:</Col>
 							<Col span={6}>{rowData.description}</Col>
-							<Col span={6}>Special Requirement:</Col>
-							<Col span={8}>{rowData.specialRequirement}</Col>
+							<Col span={6}>Requirement:</Col>
+							<Col span={8}>{rowData.Requirement}</Col>
 						</Row>
 						<Row>
 							<Col span={4}>Job Location:</Col>
 							<Col span={6}>{rowData.location}</Col>
 							<Col span={6}>Item Request:</Col>
-							<Col span={8}>{rowData.itemRequired}</Col>
+							<Col span={8}>{rowData.itemRequest}</Col>
 						</Row>
 						<Row>
-							<Col span={4}>Address:</Col>
-							<Col span={6}>{rowData.address}</Col>
+							<Col span={4}>Phone:</Col>
+							<Col span={6}>{rowData.phone}</Col>
+							<Col span={4}>Email:</Col>
+							<Col span={6}>{rowData.email}</Col>
 							
 						</Row>
 						

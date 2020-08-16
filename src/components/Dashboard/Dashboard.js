@@ -7,7 +7,17 @@ const Dashboard = () => {
 
 	return (
 		<div style={{padding: "10px 30px"}}>
-			
+			<h1
+						style={{
+							textAlign: "center",
+							marginBottom: "-3px",
+							color: "#008DB9",
+							fontSize: "4em",
+							fontFamily:"Cantarell"
+						}}
+					>
+						<u>Teach for Tomorrow </u>
+					</h1>
 			<Row>
 			
 			<Col span={20}>
@@ -16,30 +26,27 @@ const Dashboard = () => {
 						fontSize: "30px",
 						color: "#008DB9",
 						fontWeight: 700,
-						marginTop: "1em"
+						marginTop: "1em",
+						
 					}}
 				>
 					About Us
 				</p>
 				<p
 					style={{
-						fontSize: "15px",
+						fontSize: "25px",
 						color: "#000000",
-						fontWeight: 700,
-						marginTop: "1em"
+						fontWeight: 70,
+						marginTop: "1em",
+						fontFamily:"Oxygen"
 					}}
 				>
-					Contrary to popular belief, Lorem Ipsum is not simply random text.
-					It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
-					Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
-					looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,
-					and going through the cites of the word in classical literature, discovered the undoubtable source.
-					Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) 
-					by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
-					The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-					2 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) 
-					by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
-					The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+					Teach for tomorrow is a platform for people who are willing and passionate about teaching students for better tomorrow.<br/>
+					It helps in organizing the community of such people who want to give some time for the betterment of lives of those who are unfortunate.<br/>
+					This project aims at providing quality education to those who are unable to go to schools due to financial reasons.
+					<br/>
+					A platform for those who want to help improve the current state of education in Indonesia.
+					
 				</p>
 				<p
 					style={{
@@ -49,7 +56,7 @@ const Dashboard = () => {
 						marginTop: "1em"
 					}}
 				>
-					Support Us
+					Contact Us
 				</p>
 				<p
 					style={{
@@ -59,17 +66,9 @@ const Dashboard = () => {
 						marginTop: "1em"
 					}}
 				>
-					Contrary to popular belief, Lorem Ipsum is not simply random text.
-					It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
-					Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
-					looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,
-					and going through the cites of the word in classical literature, discovered the undoubtable source.
-					Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) 
-					by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
-					The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-					2 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) 
-					by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
-					The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+					Shreyash : rohitsingh9450@hotmail.com<br/>
+					Sachin : sachingupta959@gmail.com<br/>
+					Nidhaan : nidhanranjan@gmail.com
 				</p>
 			</Col>
 			<Col span={4}>
@@ -85,9 +84,9 @@ const Dashboard = () => {
 						fontWeight: 700
 					}}
 				>
-					Mr. Sam Jones
+					Dr. Sam Jones
 				</p>
-				<Meta title="Doctor" description="A free soul who belives in giving back to the mother nature" />
+				<Meta title="Physiatrist" description="A free soul who belives in giving back to the mother nature" />
 			</Card>
 			</Col>
 			</Row>
